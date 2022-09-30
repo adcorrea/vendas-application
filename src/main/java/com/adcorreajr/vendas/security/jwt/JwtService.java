@@ -1,6 +1,20 @@
-package com.adcorreajr.vendas;
+package com.adcorreajr.vendas.security.jwt;
 
 import com.adcorreajr.vendas.domain.entity.Usuario;
+//import io.jsonwebtoken.Claims;
+//import io.jsonwebtoken.ExpiredJwtException;
+//import io.jsonwebtoken.Jwts;
+//import io.jsonwebtoken.SignatureAlgorithm;
+//import org.springframework.beans.factory.annotation.Value;
+//import org.springframework.stereotype.Service;
+
+//import java.time.Instant;
+//import java.time.LocalDateTime;
+//import java.time.ZoneId;
+//import java.util.Date;
+
+
+
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.Jwts;
@@ -12,6 +26,7 @@ import java.time.Instant;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.util.Date;
+
 
 @Service
 public class JwtService {
